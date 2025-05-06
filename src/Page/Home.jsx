@@ -1,9 +1,12 @@
 import React from 'react';
+import HeroSection from "../Component/HeroSection.jsx";
+import Category from "../Component/Category.jsx";
 
 function Home() {
     return (
         <div>
-            <h1 className={"bg-accent"}>hello</h1>
+            <HeroSection/>
+            <Category styles={"lg:mt-20 -mt-36"}/>
         </div>
     );
 }

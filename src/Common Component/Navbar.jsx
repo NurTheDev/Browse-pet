@@ -4,6 +4,7 @@ import logoPaw from "../assets/logoPaw.svg";
 import {FaRegBell} from "react-icons/fa";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {FaMagnifyingGlass} from "react-icons/fa6";
+import Button from "./Button.jsx";
 
 function Navbar() {
     return (
@@ -31,12 +32,15 @@ function Navbar() {
                         ))}
                     </ul>
                 </div>
-                <div className="navbar-end hidden xl:flex">
+                <div className="navbar-end hidden xl:flex gap-x-2">
                      <span
-                         className="cursor-pointer hover:text-[#FF6B35] transition duration-200 ease-in-out text-xl">
+                         className="cursor-pointer mr-1 hover:text-[#FF6B35] transition duration-200 ease-in-out text-xl">
                         <FaRegBell/>
                     </span>
-                    <span><FaMagnifyingGlass/></span>
+                    <span
+                        className="cursor-pointer mr-1 hover:text-[#FF6B35] transition duration-200 ease-in-out text-xl"><FaMagnifyingGlass/></span>
+                    <Button btnText={"Login"}/>
+                    <Button btnText={"Register"}/>
                 </div>
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
