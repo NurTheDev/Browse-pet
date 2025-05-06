@@ -1,1 +1,33 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@plugin "daisyui";
+
+:root {
+    --color-accent: #FFDC26;
+    --color-accent-light: #F9DF8A;
+    --color-primary: #FFFFFF;
+    --color-secondary: #FFF9F4;
+    --color-text: #111111;
+    /*    Font family*/
+    --font-ADLaM: 'ADLaM Display', cursive;
+    --font-Sora: 'Sora', sans-serif;
+}
+
+@theme{
+    --color-accent: var(--color-accent);
+    --color-accent-light: var(--color-accent-light);
+    --color-primary: var(--color-primary);
+    --color-secondary: var(--color-secondary);
+    --color-text: var(--color-text);
+    --font-ADLaM: var(--font-ADLaM);
+    --font-Sora: var(--font-Sora);
+}
+@layer base {
+    body {
+        font-family: var(--font-ADLaM), serif;
+        color: var(--color-text);
+        background-color: var(--color-primary);
+    }
+}
