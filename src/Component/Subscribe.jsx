@@ -5,8 +5,9 @@ import Button from "../Common Component/Button.jsx";
 
 function Subscribe() {
     return (
-        <div className={"container mx-auto px-4 lg:px-0 bg-secondary py-10 lg:py-9 lg:mt-32 mt-20 rounded-2xl"}>
-            <div className={"flex justify-evenly  items-center lg:gap-x-10 gap-4"}>
+        <div
+            className={"container hover:scale-x-95 transition duration-200 mx-auto px-4 lg:px-0 bg-secondary py-10 lg:py-9 lg:mt-32 mt-20 rounded-2xl relative z-10"}>
+            <div className={"flex  justify-evenly  items-center lg:gap-x-10 gap-4"}>
                 <div><img src={dog4 || ""} alt="dog" className={"lg:w-[330px]"}/></div>
                 <div className={"space-y-5 lg:text-left text-center"}>
                     <h2 className={"heading2"}>Get Pawsome News!</h2>
