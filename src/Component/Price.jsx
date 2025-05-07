@@ -4,7 +4,7 @@ import dog4 from "../assets/dog4.png";
 
 function Price() {
     return (
-        <div className={"container mx-auto mt-14 lg:mt-30 px-4 lg:px-0"}>
+        <div className={"container mx-auto my-14 lg:mt-30 px-4 lg:px-0"}>
             <h2 className={"heading2"}>Everyday low Price</h2>
             <div className={"lg:grid lg:grid-cols-5 justify-center lg:gap-7 mt-10"}>
                 <div
