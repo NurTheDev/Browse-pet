@@ -8,7 +8,7 @@ function Price() {
             <h2 className={"heading2"}>Everyday low Price</h2>
             <div className={"lg:grid lg:grid-cols-5 justify-center lg:gap-7 mt-10"}>
                 <div
-                    className={"col-span-3 flex justify-center items-center rounded-xl bg-[linear-gradient(109deg,_#F8CCFB_1.27%,_#ACD2FD_100%)] lg:px-20 px-5"}>
+                    className={"col-span-3 flex justify-center items-center rounded-xl bg-[linear-gradient(109deg,_#F8CCFB_1.27%,_#ACD2FD_100%)] lg:px-20 px-5 hover:-rotate-4 transition duration-300 ease-in-out cursor-pointer"}>
                     <div className={"space-y-3 "}>
                         <p className={"font-Sora lg:text-lg"}>Under Price</p>
                         <h3 className={"text-2xl lg:text-[32px] font-bold"}>Pet Grooming Mitt</h3>
@@ -20,7 +20,7 @@ function Price() {
                     </div>
                 </div>
                 <div
-                    className={"col-span-2 flex justify-between items-center rounded-xl px-4 bg-[linear-gradient(109deg,_#FFF9F4_1.27%,_#F9DF8A_100%)] mt-4 lg:mt-0"}>
+                    className={"col-span-2 flex justify-between items-center rounded-xl px-4 bg-[linear-gradient(109deg,_#FFF9F4_1.27%,_#F9DF8A_100%)] mt-4 lg:mt-0 hover:-rotate-4 transition duration-300 ease-in-out cursor-pointer"}>
                     <div className={"space-y-3 "}>
                         <h3 className={"text-2xl lg:text-[32px] font-bold"}>T-Shirt for Dogs</h3>
                         <h2 className={"text-4xl lg:text-[56px] text-accent font-bold"}>$7.99</h2>
