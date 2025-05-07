@@ -75,7 +75,7 @@ const product = [
 function Product() {
     return (
         <div className={"bg-secondary lg:py-28 py-10 "}>
-            <div className={"container mx-auto px-4 lg:px-0"}>
+            <div className={"container mx-auto px-4 lg:px-0 "}>
                 <h2 className={"heading2"}>Trending Pet Products</h2>
                 <div className={"grid lg:grid-cols-3 gap-y-4 gap-x-12 mt-10"}>
                     <div
