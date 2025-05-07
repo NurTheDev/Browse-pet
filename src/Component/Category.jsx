@@ -43,7 +43,7 @@ const categories = [
 function Category({styles}) {
     return (
         <div className={`${styles} container mx-auto px-4 lg:px-0`}>
-            <h2 className={"font-bold text-2xl lg:text-4xl "}>
+            <h2 className={"heading2"}>
                 Browse By Categories
             </h2>
             <div className={"grid grid-cols-2 xl:grid-cols-6 gap-3 lg:gap-6 mt-10"}>
