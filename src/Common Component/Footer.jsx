@@ -19,7 +19,7 @@ const socialIcons = [{
 
 function Footer() {
     return (
-        <div className={"bg-[rgba(255,220,38,0.50)] -mt-52 lg:mt-40 py-10 px-4 lg:px-0"}>
+        <div className={"bg-[rgba(255,220,38,0.50)] -mt-52 lg:-mt-40 py-10 px-4 lg:px-0"}>
             <div className={"container mx-auto"}>
                 <div className={"flex flex-col lg:flex-row justify-between lg:items-center mt-72"}>
                     <div className={"flex flex-col space-y-5 lg:w-1/3"}>
